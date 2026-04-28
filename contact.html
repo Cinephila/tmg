@@ -1,0 +1,73 @@
+<!-- File: contact.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <title>Contact — TMG</title>
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <link rel="stylesheet" href="/tmg-legal/css/style.css" />
+  <link rel="icon" type="image/x-icon" href="favicon.ico" />
+</head>
+<body>
+  <header class="header">
+    <div class="brand">
+      <div class="logo">TMG</div>
+      <div>
+        <h1>Contact Tobinco Media Group</h1>
+        <p>We’re here to help — reach out for support, press inquiries, or partnerships.</p>
+      </div>
+    </div>
+  </header>
+
+  <nav class="nav">
+    <a href="index.html">Home</a>
+    <a href="privacy.html">Privacy Policy</a>
+    <a href="terms.html">Terms of Service</a>
+    <a href="eula.html">EULA</a>
+    <a href="delete.html">Delete Account</a>
+    <a href="contact.html">Contact</a>
+  </nav>
+
+  <main class="container">
+    <div style="display:grid;grid-template-columns:1fr 360px;gap:18px">
+      <section class="form">
+        <form id="contactForm" action="/contact-submit" method="post">
+          <label for="name">Full Name</label>
+          <input id="name" name="name" type="text" required />
+
+          <label for="email">Email Address</label>
+          <input id="email" name="email" type="email" required />
+
+          <label for="subject">Subject</label>
+          <input id="subject" name="subject" type="text" required />
+
+          <label for="message">Message</label>
+          <textarea id="message" name="message" required></textarea>
+
+          <div style="margin-top:12px">
+            <button class="btn" type="submit">Send Message</button>
+          </div>
+        </form>
+      </section>
+
+      <aside class="live">
+        <h3>Contact Info</h3>
+        <p><strong>General Inquiries</strong><br/>info@tobincogroup.com</p>
+        <p><strong>Press</strong><br/>info@tobincogroup.com</p>
+        <p><strong>Phone</strong><br/>+233-59-880-4344</p>
+        <h3 style="margin-top:12px">Office</h3>
+        <p class="small">Tobinco Media Group<br/>Kotobabi Down, Prempeh Street<br/>Accra, Ghana</p>
+      </aside>
+    </div>
+  </main>
+
+  <footer class="footer">
+    <div class="cols">
+      <div class="col"><strong>Tobinco Media Group</strong><p class="small">&copy; 2026</p></div>
+      <div class="col"><a href="index.html">Back to Home</a></div>
+    </div>
+  </footer>
+
+  <script src="/tmg-legal/js/scripts.js"></script>
+</body>
+</html>
